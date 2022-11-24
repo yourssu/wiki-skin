@@ -173,8 +173,8 @@
 /* Max-width: 397px Under Big-phone */
 @media screen and (max-width: 397px) {
 	.Liberty .nav-wrapper .navbar .navbar-brand {
-		width: 5rem;
-		background: transparent url( ../img/logo.png ) no-repeat scroll left center/auto 1.5rem;
+		width: 2.8rem;
+		background: transparent url( ../img/logo.png ) no-repeat scroll center/center 1.5rem;
 	}
 
 	.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link::after {
