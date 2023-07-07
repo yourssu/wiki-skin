@@ -699,6 +699,14 @@ class LibertyTemplate extends BaseTemplate {
 									?>/Liberty/img/designedbylibre.png" style="height:31px" alt="Designed by Librewiki">
 					</a>
 				</li>
+				<li class="cc-by-nc-sa">
+					<a href="//creativecommons.org/licenses/by-sa/3.0">
+						<?php // @codingStandardsIgnoreLine 
+						?>
+						<img src="<?php echo $this->getSkin()->getConfig()->get( 'StylePath' ); //phpcs:ignore 
+									?>/Liberty/img/cc-by-nc-sa.png" style="height:31px" alt="크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 2.0">
+					</a>
+				</li>
 			</ul>
 		<?php
 		}
