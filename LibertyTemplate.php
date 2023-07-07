@@ -700,7 +700,7 @@ class LibertyTemplate extends BaseTemplate {
 					</a>
 				</li>
 				<li class="cc-by-nc-sa">
-					<a href="//creativecommons.org/licenses/by-sa/3.0">
+					<a href="//creativecommons.org/licenses/by-nc-sa/2.0/kr/">
 						<?php // @codingStandardsIgnoreLine 
 						?>
 						<img src="<?php echo $this->getSkin()->getConfig()->get( 'StylePath' ); //phpcs:ignore 
